@@ -1,7 +1,3 @@
-GitHub:
-
-markdown
-
 # SQL Injection Tool
 
 Welcome to the SQL Injection Tool! This tool is designed to help security professionals and enthusiasts test for SQL injection vulnerabilities in web applications.
@@ -27,14 +23,8 @@ Welcome to the SQL Injection Tool! This tool is designed to help security profes
 Clone the repository:
 1. ```bash
    git clone https://github.com/00Spido00/ghost.git
-
-    bash
-
-cd ghost
-
-bash
-
-chmod 777 ghost
+   cd ghost
+   chmod 777 ghost
 
 bash
 
