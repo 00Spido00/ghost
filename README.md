@@ -6,10 +6,8 @@ Welcome to the SQL Injection Tool! This tool is designed to help security profes
 
 - [Features](#features)
 - [Installation](#installation)
-- [Usage](#usage)
 - [Requirements](#requirements)
-- [Contributing](#contributing)
-- [License](#license)
+- [Advantages](#Advantages)
 
 ## Features
 
@@ -30,24 +28,28 @@ bash
 
     ./ghost.sh
 
-Requirements
+
+## Requirements
 
     Python 3.x
     Required Python packages listed in requirements.txt
     sqlmap
     subfinder
 
-Contributing
+## Advantages
 
-Contributions are welcome! If you have suggestions for improvements or new features, please submit an issue or a pull request.
+    Automated Process: The tool automates the discovery of subdomains and the subsequent testing for SQL injection vulnerabilities, saving time and effort.
 
-    Fork the repository.
-    Create your feature branch (git checkout -b feature/AmazingFeature).
-    Commit your changes (git commit -m 'Add some feature').
-    Push to the branch (git push origin feature/AmazingFeature).
-    Open a pull request.
+    Comprehensive Testing: By leveraging SQLMap, the tool performs thorough testing against various SQL databases, increasing the chances of identifying vulnerabilities.
 
-License
+    User-Friendly Interface: The command-line interface is designed to be intuitive, providing clear prompts and color-coded output for better readability.
+
+    Customizable Options: Users can specify SQLMap options for tailored testing scenarios, enhancing the flexibility of the tool.
+
+    Real-Time Results: The tool provides immediate feedback on live URLs and detected vulnerabilities, allowing for quick remediation actions.
+
+
+## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
