@@ -22,7 +22,7 @@ Welcome to the SQL Injection Tool! This tool is designed to help security profes
 
 To install the SQL Injection Tool, follow these steps:
 
-1. Clone the repository:
+Clone the repository:
    1 : git clone https://github.com/00Spido00/ghost.git
    2 : cd ghost
    3 : chmod 777 ghost
