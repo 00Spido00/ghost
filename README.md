@@ -1,4 +1,3 @@
-markdown
 # SQL Injection Tool
 
 Welcome to the SQL Injection Tool! This tool is designed to help security professionals and enthusiasts test for SQL injection vulnerabilities in web applications.
@@ -25,10 +24,10 @@ To install the SQL Injection Tool, follow these steps:
 
 1. Clone the repository:
    
-   git clone https://github.com/00Spido00/ghost.git
-   cd ghost
-   chmod 777 ghost
-   ./ghost.sh
+   1 : git clone https://github.com/00Spido00/ghost.git
+   2 : cd ghost
+   3 : chmod 777 ghost
+   4 : ./ghost.sh
    
   ▄████  ██░ ██   ▒█████  ██████ ▄▄▄█████▓
  ██▒ ▀█▒▓██░ ██▒▒██▒  ██▒▒██    ▒ ▓  ██▒ ▓▒
