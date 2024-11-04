@@ -22,7 +22,7 @@ Clone the repository:
 1. ```bash
    git clone https://github.com/00Spido00/ghost2.0.git
    cd ghost2.0
-   chmod 777 ghost
+   chmod 777 ghost2.0
 
 bash
 
