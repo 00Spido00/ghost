@@ -30,7 +30,7 @@ run_script() {
 
     if [ "$scan_choice" == "1" ]; then
         echo -e "\nRunning normal scan..."
-        echo "Executing command: python3 web_enum.py"
+        echo "Executing command: python3 normal_scan.py"
         python3 Normal_scan.py
     elif [ "$scan_choice" == "2" ]; then
         echo -e "\nRunning deep scan..."
