@@ -26,7 +26,7 @@ Clone the repository:
 
 bash
 
-    ./ghost.sh
+    ./ghost2.0.sh
 
 
 ## Requirements
