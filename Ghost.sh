@@ -21,17 +21,34 @@ echo "1: Linux 🐉"
 echo "2: Mac 💻"
 read -p "Select (1 or 2): " choice
 
+# Function to run the web enumeration script
+run_script() {
+    echo -e "\nSelect the type of scan:"
+    echo "1: Normal Scan"
+    echo "2: Deep Scan"
+    read -p "Select (1 or 2): " scan_choice
+
+    if [ "$scan_choice" == "1" ]; then
+        echo -e "\nRunning normal scan..."
+        echo "Executing command: python3 web_enum.py"
+        python3 Normal_scan.py
+    elif [ "$scan_choice" == "2" ]; then
+        echo -e "\nRunning deep scan..."
+        echo "Executing command: python3 deep_scan.py"
+        python3 Deep_scan.py
+    else
+        echo -e "\nInvalid option! Please enter 1 or 2."
+    fi
+}
+
 if [ "$choice" == "1" ]; then
     echo "Checking for system updates..."
     sudo apt update && sudo apt upgrade -y
     
-    echo -e "\n[Linux 🐉] Running web enumeration script..."
-    echo "Executing command: python3 web_enum.py"
-    python3 web_enum.py
+    echo -e "\n[Linux 🐉] Preparing to run web enumeration script..."
+    run_script
 
 elif [ "$choice" == "2" ]; then
-    python3 -m venv myenv
-    source myenv/bin/activate
     echo "Checking for Homebrew updates..."
     brew update
 
@@ -63,9 +80,8 @@ elif [ "$choice" == "2" ]; then
     python3 -m pip install --upgrade pip
     python3 -m pip install -r requirements.txt
 
-    echo -e "\n[Mac 💻] Running web enumeration script..."
-    echo "Executing command: python3 web_enum.py"
-    python3 web_enum.py
+    echo -e "\n[Mac 💻] Preparing to run web enumeration script..."
+    run_script
 
 else
     echo -e "\nInvalid option! Please enter 1 or 2."
