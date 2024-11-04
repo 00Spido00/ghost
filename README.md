@@ -20,8 +20,8 @@ Welcome to the SQL Injection Tool! This tool is designed to help security profes
 
 Clone the repository:
 1. ```bash
-   git clone https://github.com/00Spido00/ghost.git
-   cd ghost
+   git clone https://github.com/00Spido00/ghost2.0.git
+   cd ghost2.0
    chmod 777 ghost
 
 bash
