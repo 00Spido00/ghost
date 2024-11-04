@@ -1,3 +1,7 @@
+GitHub:
+
+markdown
+
 # SQL Injection Tool
 
 Welcome to the SQL Injection Tool! This tool is designed to help security professionals and enthusiasts test for SQL injection vulnerabilities in web applications.
@@ -18,13 +22,23 @@ Welcome to the SQL Injection Tool! This tool is designed to help security profes
 - Detailed reporting of vulnerabilities found
 - User-friendly command-line interface
 
-Installation
-Clone the repository:
-   1 : git clone https://github.com/00Spido00/ghost.git
-   2 : cd ghost
-   3 : chmod 777 ghost
-   4 : ./ghost.sh
+## Installation
 
+Clone the repository:
+1. ```bash
+   git clone https://github.com/00Spido00/ghost.git
+
+    bash
+
+cd ghost
+
+bash
+
+chmod 777 ghost
+
+bash
+
+    ./ghost.sh
 
 Requirements
 
@@ -47,10 +61,10 @@ License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-sql
+vbnet
 
 
-Feel free to copy this code block and paste it directly into your `README.md` file on GitHub! Remember to update the repository URL with your actual GitHub link.
+You can paste this content directly into your `README.md` file. Don't forget to replace the repository URL with the correct one if needed!
 
 
 ChatGPT can make mistakes. Check important info.
